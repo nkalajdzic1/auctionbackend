@@ -8,7 +8,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://webauctioning.herokuapp.com/",
+    origin: "https://webauctioning.herokuapp.com",
   })
 );
 app.use(express.json());
